@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <!-- left side -->
+        <section class="left-side-container">
+          <p class="left-side__title">Your Result</p>
+          <div class="score-area">
+            <h1 class="left-side__score">76</h1>
+            <p class="total-socre">of 100</p>
+          </div>
+
+          <h2 class="writen-score">Great</h2>
+          <p class="score-summery">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </section>
+        <!-- End of left side -->
+
+        <!-- Right side -->
+
+        <section class="right-side-container">
+          <h3 class="summery-title">Summary</h3>
+          <ul class="test-summery">
+            <li class="reaction-container">
+              <img
+                src="./assets/images/icon-reaction.svg"
+                alt="reaction icon"
+              />
+              <div class="flex">
+                <p>Reaction</p>
+                <span class="summary-score"><strong>80</strong> / 100</span>
+              </div>
+            </li>
+
+            <li class="memory-container">
+              <img src="./assets/images/icon-memory.svg" alt="reaction icon" />
+              <div class="flex">
+                <p>Memory</p>
+                <span class="summary-score"><strong>92</strong> / 100</span>
+              </div>
+            </li>
+
+            <li class="verbal-container">
+              <img src="./assets/images/icon-verbal.svg" alt="reaction icon" />
+              <div class="flex">
+                <p>Verbal</p>
+                <span class="summary-score"><strong>61</strong> / 100</span>
+              </div>
+            </li>
+
+            <li class="visual-container">
+              <img src="./assets/images/icon-visual.svg" alt="reaction icon" />
+              <div class="flex">
+                <p>Visual</p>
+                <span class="summary-score"><strong>72</strong> / 100</span>
+              </div>
+            </li>
+          </ul>
+          <button class="continue-btn">Continue</button>
+        </section>
+        <!-- End of Right side -->
+      </div>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://github.com/Devhoss" target="_blank">Devhoss</a>.
+    </div>
+  </body>
+</html>
